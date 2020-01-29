@@ -1,0 +1,2 @@
+webpackJsonp([0],{3:function(e,n,t){"use strict";Object.defineProperty(n,"__esModule",{value:!0});var c=t(0),d=t.n(c),l=t(2),o=(t.n(l),t(8)),r=(t.n(o),document.body.appendChild(document.createElement("div"))),u=d.a.createElement("h1",null,"Hello, world!");Object(l.render)(u,r)},8:function(e,n){}},[3]);
+//# sourceMappingURL=index.bundle.js.map
