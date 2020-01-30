@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (function() {\n\talert('from anohter planet')\n});\n\n//# sourceURL=webpack:///./hello.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n{console.log(1)};{console.log(2)};/* harmony default export */ __webpack_exports__[\"default\"] = (function() {\n\talert('from anohter planet')\n});\n\n//# sourceURL=webpack:///./hello.js?");
 
 /***/ }),
 
@@ -106,7 +106,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hello__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./hello */ \"./hello.js\");\n\n\nObject(_hello__WEBPACK_IMPORTED_MODULE_0__[\"default\"])()\n\n//# sourceURL=webpack:///./index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hello__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./hello */ \"./hello.js\");\n{console.log(1)};{console.log(2)};\n\nObject(_hello__WEBPACK_IMPORTED_MODULE_0__[\"default\"])()\n\n//# sourceURL=webpack:///./index.js?");
 
 /***/ })
 

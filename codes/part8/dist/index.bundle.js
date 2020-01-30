@@ -209,7 +209,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (function() {\n\talert('from anohter planet')\n});\n\n//# sourceURL=webpack:///./hello.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (function() {\n  __webpack_require__.e(/*! import() | lodash */ \"vendors~lodash\").then(__webpack_require__.t.bind(null, /*! lodash */ \"./node_modules/_lodash@4.17.15@lodash/lodash.js\", 7)).then(_ => {\n\t  console.log('sss')\n  });\n  alert('from anohter planet');\n});\n\n\n//# sourceURL=webpack:///./hello.js?");
 
 /***/ }),
 
