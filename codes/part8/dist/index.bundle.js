@@ -43,7 +43,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "" + ({}[chunkId]||chunkId) + ".bundle.js"
+/******/ 		return __webpack_require__.p + "" + ({"vendors~lodash":"vendors~lodash"}[chunkId]||chunkId) + ".bundle.js"
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -208,7 +208,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("\n__webpack_require__.e(/*! import() */ 0).then(__webpack_require__.t.bind(null, /*! lodash */ \"./node_modules/_lodash@4.17.15@lodash/lodash.js\", 7)).then(_ => {\n  alert(_.camelCase('CAMEL CASE FROM LODASH'))\n}).catch(err => console.error('error happens!', err))\n\n\n//# sourceURL=webpack:///./index.js?");
+eval("\n__webpack_require__.e(/*! import() | lodash */ \"vendors~lodash\").then(__webpack_require__.t.bind(null, /*! lodash */ \"./node_modules/_lodash@4.17.15@lodash/lodash.js\", 7)).then(_ => {\n  alert(_.camelCase('CAMEL CASE FROM LODASH'))\n}).catch(err => console.error('error happens!', err))\n\n\n//# sourceURL=webpack:///./index.js?");
 
 /***/ })
 
