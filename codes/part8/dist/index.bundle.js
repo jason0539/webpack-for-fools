@@ -201,14 +201,27 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./hello.js":
+/*!******************!*\
+  !*** ./hello.js ***!
+  \******************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (function() {\n\talert('from anohter planet')\n});\n\n//# sourceURL=webpack:///./hello.js?");
+
+/***/ }),
+
 /***/ "./index.js":
 /*!******************!*\
   !*** ./index.js ***!
   \******************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("\n__webpack_require__.e(/*! import() | lodash */ \"vendors~lodash\").then(__webpack_require__.t.bind(null, /*! lodash */ \"./node_modules/_lodash@4.17.15@lodash/lodash.js\", 7)).then(_ => {\n  alert(_.camelCase('CAMEL CASE FROM LODASH'))\n}).catch(err => console.error('error happens!', err))\n\n\n//# sourceURL=webpack:///./index.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hello__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./hello */ \"./hello.js\");\n\n\n__webpack_require__.e(/*! import() | lodash */ \"vendors~lodash\").then(__webpack_require__.t.bind(null, /*! lodash */ \"./node_modules/_lodash@4.17.15@lodash/lodash.js\", 7)).then(_ => {\n  alert(_.camelCase('CAMEL CASE FROM LODASH'))\n}).catch(err => console.error('error happens!', err))\n\n\nObject(_hello__WEBPACK_IMPORTED_MODULE_0__[\"default\"])()\n\n//# sourceURL=webpack:///./index.js?");
 
 /***/ })
 
